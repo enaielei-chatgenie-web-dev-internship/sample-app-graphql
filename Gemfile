@@ -30,3 +30,12 @@ end
 
 
 gem "figaro", "~> 1.2"
+
+gem "graphql", "~> 2.0"
+gem "graphiql-rails", group: :development
+
+gem "bcrypt", "~> 3.1"
+
+gem "image_processing", "~> 1.12"
+
+gem "active_storage_validations", "~> 0.9.7"
