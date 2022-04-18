@@ -14,6 +14,7 @@ module Types
       "Hello World!"
     end
 
+    field(:microposts, [MicropostType], resolver: Resolvers::MicropostResolver)
     
   end
 end
